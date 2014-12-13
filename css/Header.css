@@ -1,0 +1,125 @@
+.head_wrapper_left {width:500px;}
+
+/* seo icin gerekli metinler */
+.invertedtabsline {height: 20px; width: 999px; background:url('../Images/General/bg_body.png') repeat-x 0 0;font:normal 10px/20px Arial; color:#9eb4c9 !important; }
+.invertedtabsline h1 {color:#9EB4C9 !important; width:390px;}
+.invertedtabsline h2 {width:216px;}
+
+/* logoyu bulunduran alan */
+.logo_container div {background:url('../Images/logo_yb.gif') no-repeat 0 0; width: 200px;height: 78px; margin: 17px 0 5px 25px;}
+.logo_container div span {display:none;}
+
+/* isarayan kullanici ve parola girme alani */
+.loginInputCont { margin:15px 37px 0 0; width:381px}
+.forgotPassLink {margin-right:20px;#margin-right:15px}
+:root .forgotPassLink { margin-right:13px \0/IE9; }  /* IE9 hack */
+@media \0screen {.forgotPassLink {margin-right:15px;}} /* ie8 Hack */
+#dvSocialLogin {margin:5px 21px 0 10px; }
+.linkedinLogin {background: url('../Images/btn_loginWithLd.png') no-repeat 0 0; width: 52px;height:16px;display:block}
+.facebookLogin {background: url('../Images/btn_loginWithFb.png') no-repeat 0 0; width: 52px;height:16px;display:block; margin-right:10px}
+.cont_signin_tools { width:430px; padding-right: 150px; }
+.submit_signin {border:none;background: url('../Images/bttn_signin_02.png') no-repeat 0 0; width: 61px;height: 30px; cursor:pointer; margin-left:6px;}
+.submit_signout {border:none;background: url('../Images/bttn_signout_02.png') no-repeat 0 0; width: 61px;height: 30px; cursor:pointer;margin-left:1px}
+.afterSigninCont {margin:10px 6px 0 0; width:424px}
+.afterSigninTxt {margin: 0; padding: 0; color: #3b3b3b; font-family: Arial; font-size: 12px; text-align: right; line-height: 27px;}
+.afterSigninTxt a {color: #3b3b3b; font-family: Arial; font-size: 12px; text-decoration: none}
+.afterSigninBtnSignout {width: 61px; margin:0 0 0 10px}
+.cont_txtBox_usermail {  background: url('../Images/txtBox_loginNew_02.png') no-repeat 0 0; width: 200px;height: 30px;margin:0 19px 0 0}
+.cont_txtBox_usermail input {margin:3px 8px 0 9px; border:none; font:normal 15px Trebuchet MS; color:#000; width:187px; height:23px; line-height:22px; line-height:23px\0/; background:none; }
+.cont_txtBox_userpass {  background: url('../Images/txtBox_loginNewPass_02.png') no-repeat 0 0; width: 90px;height: 30px;margin:0 2px 0 0}
+.cont_txtBox_userpass input {margin:3px 8px 0 9px; border:none; font:normal 15px Trebuchet MS; color:#000; width:77px; height:23px; line-height:22px; line-height:23px\0/; background:none; }
+.personnelAdLink {margin:0}
+.personnelAdLink a {background: url('../Images/bg_elemanIlan.png') no-repeat 0 0; width: 162px;height: 94px; display:block}
+
+/* sifremi unuttum ve uye ol linkleri */
+.cont_lnk_signup_ia { margin:1px 2px 0 0; #margin:2px 2px 0 0; line-height:16px; line-height:17px\0/; }
+.cont_lnk_signup_ia .forget {margin-top:1px}
+.cont_lnk_signup_ia .forget label { line-height:20px !important; color:#000000; margin-left:2px;#margin-top:3px !important}
+:root .cont_lnk_signup_ia .forget .forgetTxt { margin-top:0 \0/IE9; }  /* IE9 hack */
+.cont_lnk_signup_ia .forget .forgetTxt {#margin-top:4px} /* IE7 hack */
+.cont_lnk_signup_ia .forget input { margin-top:4px ;#margin-top:3px; margin-left:10px }
+@media \0screen {.cont_lnk_signup_ia .forget input {margin-top:1px ;}} /* ie8 Hack */
+:root .cont_lnk_signup_ia .forget input { margin-top:4px \0/IE9; }  /* IE9 hack */
+.cont_lnk_signup_ia .forget div { padding-top:1px; }
+.cont_lnk_signup_ia a { font:normal 11px Arial; text-decoration:none; color:#000000; }
+.cont_lnk_signup_ia a:hover { color:#649300; }
+.cont_lnk_signup_ia span { font:normal 11px Arial; color:#1c5180; }
+.cont_lnk_signupTools { margin:5px 0 0 145px; }
+.cont_lnk_signupTools a {  } 
+
+/* isveren giris ve bilgi alani */
+.head_wrapper_right {background:url('../Images/bg_entryArea_ivNew_02.png') no-repeat left top; width:168px;height:97px; text-align:center; padding:23px 0 0 0 !important; margin:0 !important; position:relative; display:block}
+.head_wrapper_right a {text-decoration:none;}
+.head_wrapper_right a:hover {color:#c7ed74;}
+.lnk_employer { margin:4px 0 0 0; padding-right:6px;}
+.lnk_employer a {font:normal 18px Trebuchet MS; color:#F2F2F2;}
+.head_wrapper_right p span {margin:0 11px; color:#f5f5f5;}
+.cont_lnk_signup_iv {margin:-1px 0 0 0; padding-right:6px; }
+.cont_lnk_signup_iv a {color:#fff;font:bold 14px Tahoma; }
+.cont_lnk_phone {color:#FEFEFE; margin:1px 0 0 21px;#margin:8px 0 0 21px;padding-right:6px; font:bold 13px Tahoma}
+@media screen and (-webkit-min-device-pixel-ratio:0){ .cont_lnk_phone {  margin:2px 0 0 21px; } } /* Chrome & Safari Hack */
+:root .cont_lnk_phone { margin:4px 0 0 23px \0/IE9; }  /* IE9 hack */
+@media \0screen {.cont_lnk_phone {margin:2px 0 0 23px;}} /* ie8 Hack */
+.cont_stickyBannerTop {margin:0 auto; text-align:center; font-size:1px; background-color:#174F88}
+.cont_stickyBannerTop > div {margin:0 auto;}
+.cont_stickyBannerLftRght {font-size:1px !important; position:relative; width:1px; height:0; background-color:#165088; display:block}
+.cont_stickyBannerRght {position:absolute;left:1007px; top:25px}
+.cont_stickyBannerLft {position:absolute;left:-128px; top:25px}
+.fixedDiv { position:fixed}
+
+/* top menu - kisiye ozel linkler */
+.cont_topmenu {margin:5px 0 3px 0; background:url('../Images/bg_homeHeaderMenu.jpg') repeat-x 0 0; height:40px}
+.cont_topmenu ul {}
+.cont_topmenu ul li {float:left;padding-top:8px}
+.cont_topmenu ul li.arrw_topmenu {background: url('../Images/sep_homeTopMenu.png') no-repeat 0 0;width: 2px; height: 40px; margin:0 25px;}
+.cont_topmenu ul li a {color:#fff; text-decoration:none;font:normal 18px Arial;}
+.cont_topmenu ul li a:hover {color:#C4DA5F; }
+
+.searchArea { width:999px; height:253px;}
+
+/* Detayli arama alani */
+.searchArea_left { margin:61px 0 0 38px; #margin:31px 0 0 38px;width:686px; }
+.cont_txtBox_search {background: url("../Images/txtBox_search_02.png") no-repeat 0 0;height: 47px;margin: 11px 8px 11px 8px;width: 336px;}
+.cont_txtBox_search table {margin: 7px 0 0;width: 330px;}
+.cont_txtBox_search div {color: #717171;font: 18px/30px Arial;white-space: nowrap; height:31px}
+.cont_txtBox_search input {width:100%;background:none;margin: 0; border:none; font:normal 18px Arial; color:#000000; height:31px; line-height:30px}
+
+.cont_combobox_search { background: url('../Images/combobox_search_02.png') no-repeat 0 0; width:155px; height:47px; margin:11px 0 11px 0; }
+.cont_combobox_search input { margin:0 10px; border:none; font:normal 18px Arial; color:#000000; width:167px; height:44px; background:none; line-height:43px !important; _position:relative;}
+
+.submit_search {border:none; background: url('../Images/bttn_search_02.png') no-repeat 0 0; width:82px; height:47px; cursor:pointer; _background:none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Images/bttn_search.png',enabled=true, sizingMethod='scale'); _position:relative;margin: 11px 0 11px 9px; }
+
+
+
+.imageSliderCont {width:216px; height:179px; float:right; margin-top:1px}
+
+.rslides {position: relative;list-style: none;overflow: hidden;width: 100%;padding: 0;margin: 0;}
+.rslides li {position: absolute;display: none;width: 100%;left: 0;top: 0;}
+.rslides li:first-child {position: relative;display: block;float: left;}
+.rslides img {display: block;height: auto;float: left;width: 100%;border: 0;}
+
+/* g�nl�k,haftalik vs. ilan listeleri linkleri */
+.cont_lnk_joblist {margin:0 0 0 15px; #margin:0 0 0 16px; margin:0 0 0 16px\0/; text-align:left; width:589px; }
+.cont_lnk_joblist a {font:normal 12px Verdana; text-decoration:none; color:#2A3D83; margin:0 26px 0 0; float:left;background: url('../Images/sep_blueRightArrow.png') no-repeat 0 5px; padding-left:8px;  }
+.cont_lnk_joblist a { #background: url('../Images/sep_blueRightArrow.png') no-repeat 0 4px; } /* IE7 Hack */
+@media \0screen {.cont_lnk_joblist a {background: url('../Images/sep_blueRightArrow.png') no-repeat 0 4px;}} /* ie8 Hack */
+:root .cont_lnk_joblist a { background: url('../Images/sep_blueRightArrow.png') no-repeat 0 4px; \0/IE9 }  /* IE9 hack */
+@media screen and (-webkit-min-device-pixel-ratio:0){ .cont_lnk_joblist a { background: url('../Images/sep_blueRightArrow.png') no-repeat 0 4px; } } /* Chrome & Safari Hack */
+
+.cont_lnk_joblist a:hover { color:#649300; }
+.cont_lnk_joblist a.lnk_detail_search {font:normal 19px Arial; color:#005fac; text-decoration:none; float:right; margin-right:0 !important; background:none !important}
+.cont_lnk_joblist a:hover.lnk_detail_search { color:#649300; }
+.cont_lnk_joblist a.fl { margin-top:5px }
+
+
+
+/* advert area - uygun ilanlar listesi */
+.advertArea { background: url('../Images/bg_advertArea.png') no-repeat 0 0; padding-left:5px; width:245px; height:176px; margin:2px 1px 0 0; text-align:left;_background: none;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Images/bg_advertArea.png',enabled=true, sizingMethod='image'); }
+.advertArea h2 { margin:0 0 0 7px; font:normal 19px Trebuchet MS; color:#fbfcfd; line-height:35px; line-height:36px\0/;}
+.truncate { white-space:nowrap; text-overflow:ellipsis; overflow:hidden; -moz-binding: url(/Xml/ellipsis.xml#ellipsis); display:block}
+
+.searchArea_leftCont {width:686px; height:250px; background: url('../Images/bg_searchBarLeft.jpg') no-repeat 0 0; clear: both;}
+.sloganTxt { font:normal 26px/26px Arial, Helvetica; color:#2A3D83; text-align:left; margin:30px 0 3px 0; }
+.sloganTxt span { color:#539800 !important; }
+.bgHomeSearchBar { width:611px; height:70px; background: url('../Images/bg_searchBarGreen.png') no-repeat 0 0;}
+

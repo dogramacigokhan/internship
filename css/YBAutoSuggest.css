@@ -1,0 +1,150 @@
+﻿/* for understanding browsers */
+.YBAutoCompleteOuterDiv
+{
+    width: 270px;
+    border: 1px solid #8DB7D5;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    z-index: 99999;
+    position: absolute;
+}
+.YBAutoCompleteInnerDiv
+{
+}
+.YBAutoCompleteInnerDiv ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font: normal 11px Tahoma;
+    text-align: left;
+    min-height: 315px;
+    height: auto !important;
+    height: 315px;
+}
+.YBAutoCompleteInnerDiv ul div.srch_popup_header
+{
+    background: #F5F5F5 url(../Images/Header/bg_srch_popup_header.jpg) repeat-y 0 0;
+    height: 24px;
+}
+.srch_popup_header span
+{
+    font: bold 11px Tahoma;
+    color: #509A00;
+    margin-left: 7px;
+    line-height: 22px !important;
+}
+.YBAutoCompleteInnerDiv ul li
+{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    height: 19px;
+    width: 268px;
+}
+.YBAutoCompleteInnerDiv ul li a
+{
+    line-height: 19px;
+    display: block;
+    padding: 0 0 0 7px;
+    text-decoration: none;
+    color: #3B3B3B;
+    width: 268px;
+}
+.YBAutoCompleteInnerDivListItemHovered
+{
+    background-color: #f1f6f0;
+    color: #237AC7;
+}
+.YBAutoCompleteInnerDivDefault
+{
+    line-height: 19px;
+    display: block;
+    padding: 0 0 0 7px;
+    text-decoration: none;
+    color: #3B3B3B;
+}
+.YBAutoCompleteInnerDiv ul li a:hover
+{
+    background-color: #f1f6f0;
+    color: #237AC7;
+}
+.srch_popup_allLink_container
+{
+    border-top: 1px solid #7F9DB9;
+}
+.srch_popup_allLink
+{
+    height: 33px;
+    display: block;
+    font: normal 11px Tahoma;
+    text-decoration: none;
+    color: #3B3B3B;
+    line-height: 33px;
+    padding-left: 7px;
+}
+.srch_popup_allLink strong
+{
+    color: #509A00;
+}
+.srch_popup_allLink:hover
+{
+    background: #F5F5F5 url(../Images/Header/bg_srch_popup_header.jpg) repeat-y 0 0;
+    color: #237AC7;
+}
+.popup_close
+{
+    position: absolute;
+    left: 249px;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    background: url(../Images/General/filterHeader_rght_im_close.gif) no-repeat 0 0;
+    text-decoration: none;
+}
+.popup_close:hover
+{
+    background: url(../Images/General/filterHeader_rght_im_close_hover.gif) no-repeat 0 0;
+    text-decoration: none;
+}
+.YBAutoCompleteDivOriginal
+{
+    padding: 0px;
+    border: 1px solid black;
+    background-color: white;
+    overflow: hidden;
+    z-index: 99999;
+    position: absolute;
+}
+.ac_results ul
+{
+    width: 100%;
+    list-style-position: outside;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ac_results li
+{
+    margin: 0px;
+    padding: 2px 5px;
+    cursor: default;
+    display: block; /*  	if width will be 100% horizontal scrollbar will apear  	when scroll mode will be used 	*/ /*width: 100%;*/
+    font: menu;
+    font-size: 12px; /*  	it is very important, if line-height not setted or setted  	in relative units scroll will be broken in firefox 	*/
+    line-height: 16px;
+    overflow: hidden;
+}
+.ac_loading
+{
+    background: white url('indicator.gif') right center no-repeat;
+}
+.ac_odd
+{
+    background-color: #eee;
+}
+.ac_over
+{
+    background-color: #0A246A;
+    color: white;
+}

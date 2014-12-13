@@ -1,0 +1,142 @@
+.cvPro_HomeWrapper {margin:0 auto; width:777px}
+.cvPro_CoverInfoWrapper { padding:16px 20px 20px 20px; position:relative}
+.cvPro_darkBorderCont {  position:relative}
+.cvPro_TopTools {width:774px; height:22px; position:absolute; left:0 ; top:-22px;}
+.cvPro_TopTools a {font:normal 11px/25px Arial; color:#555; text-decoration:none; float:right; margin-left:19px }
+.cvPro_UserPhotoCont {position:relative; z-index:1}
+.cvPro_UserPhotoCont img.photoThumb {border:solid 1px #000; width:120px; height:160px; z-index:2}
+.cvPro_UserPhotoCont img.photoPreview {position:absolute; left:-30px; top:0;border:solid 1px #000; width:120px; height:160px; z-index:3}
+.cvPro_UserPhotoCont a {position:absolute; left:122px; top:10px;  width:21px; height:23px;background: url(../../Assets/Images/i_fotoEdit.png) no-repeat 0 0; display:block}
+.cvPro_UserPhotoCont a:hover {position:absolute; left:122px; top:10px;  width:21px; height:23px;background: url(../../Assets/Images/i_fotoEdit.png) no-repeat 0 -24px; display:block}
+.cvPro_NameTitleInfoCont {padding:0 0 12px 0; min-height:40px}
+.cvPro_TxtName {font:normal 26px/26px Arial; color:#000; padding-bottom:2px}
+.cvPro_TxtTitle {font:normal 16px/22px Arial; color:#000}
+.cvPro_OtherInfoCont {background-color:#fff; }
+.cvPro_OtherInfoCont ul {}
+.cvPro_OtherInfoCont ul li {}
+.cvPro_OtherInfoCont ul li div,.cvPro_OtherInfoCont ul li label {float:left; font:normal 13px/21px Arial;}
+.cvPro_OtherInfoCont ul li label {width:118px; color:#555555}
+.cvPro_OtherInfoCont ul li div {color:#000}
+.cvPro_OtherInfoCont ul li div.phonePicCont img { margin-top:4px}
+.cvPro_OtherInfoCont ul li div.emailPiccont img { margin-top:3px}
+.cvPro_OtherInfoCont ul li div.cvAddressCont {width:370px; line-height:16px !important; padding-top:3px}
+.cvPro_BlueBorder {border-left: solid 1px #D3DFE9;border-right: solid 1px #D3DFE9;padding:4px 1px 2px 1px}
+.cvPro_SocialInfoWrapper {}
+.cvPro_HeadBarCont {height:34px;  border-top:solid 1px #000}
+.cvPro_HeadBarCont:hover {background:#FDFBEE;}
+[unselectable=on] { -moz-user-select: none; -khtml-user-select: none; user-select: none; -webkit-user-select: none;-o-user-select: none;}
+.cvPro_HeadBarTxt {font: normal 19px Arial; color:#3b3b3b; margin-top:5px}
+.cvPro_HeadBarToolsCont {margin-top:10px; margin-right:3px}
+.cvPro_HeadBarToolsCont a {float:right}
+.cvPro_HeadBarToolsCont p {float:right;color:#D2CEB4; font:normal 11px Arial; display:block; width:1px; margin:0 5px}
+.msnInfo { background: url(../../Assets/Images/i_socialNetwork.gif) no-repeat 0 3px; padding-left:22px; font-size:13px }
+.facebookInfo {background: url(../../Assets/Images/i_socialNetwork.gif) no-repeat 0 -20px; padding-left:22px; font-size:13px }
+.twitterInfo {background: url(../../Assets/Images/i_socialNetwork.gif) no-repeat 0 -42px; padding-left:22px; font-size:13px}
+.skypeInfo {background: url(../../Assets/Images/i_socialNetwork.gif) no-repeat 0 -64px; padding-left:22px; font-size:13px }
+.linkedinInfo {background: url(../../Assets/Images/i_socialNetwork.gif) no-repeat 0 -86px; padding-left:22px; font-size:13px }
+.friendfeedInfo {background: url(../../Assets/Images/i_socialNetwork.gif) no-repeat 0 -110px; padding-left:22px; font-size:13px}
+.yahooInfo {background: url(../../Assets/Images/i_socialNetwork.gif) no-repeat 0 -132px; padding-left:22px; font-size:13px }
+.googleplusInfo {background: url(../../Assets/Images/i_socialNetwork.gif) no-repeat 0 -153px; padding-left:22px; font-size:13px }
+.gtalkInfo {background: url(../../Assets/Images/i_socialNetwork.gif) no-repeat 0 -173px; padding-left:22px; font-size:13px }
+.websiteInfo {background: url(../../Assets/Images/i_socialNetwork.gif) no-repeat 0 -193px; padding-left:22px; font-size:13px}
+.cvPro_PersonalInfoWrapper {}
+.cvPro_ExperienceWrapper {}
+.cvPro_ExperienceRowCont {padding:2px 0 7px 19px;}
+.cvPro_ExperienceRowCont:hover { background-color:#FCFBED !important}
+.cvPro_ExperienceCont {width:690px;}
+.cvPro_TrainingWrapper {}
+.cvPro_TrainingRowCont {padding:5px 0 8px 19px;}
+.cvPro_TrainingRowCont:hover { background-color:#FCFBED !important}
+.cvPro_TrainingCont {width:690px;}
+.cvPro_EducationWrapper {}
+.cvPro_EducationRowCont {padding:5px 0 8px 19px;}
+.cvPro_EducationRowCont:hover { background-color:#FCFBED !important}
+.cvPro_EducationCont {width:690px;}
+.cvPro_ForeignLanguageWrapper {}
+.cvPro_ForeignLanguageRowCont {padding:5px 0 8px 19px;}
+.cvPro_ForeignLanguageRowCont:hover { background-color:#FCFBED !important}
+.cvPro_ForeignLanguageCont {width:690px;}
+.cvPro_ComputerWrapper {}
+.cvPro_ComputerRowCont {padding:5px 0 8px 19px;}
+.cvPro_ComputerRowCont:hover { background-color:#FCFBED !important}
+.cvPro_ComputerCont {width:690px;}
+.cvPro_CourseWrapper {}
+.cvPro_CourseRowCont {padding:5px 0 8px 19px;}
+.cvPro_CourseRowCont:hover { background-color:#FCFBED !important}
+.cvPro_CourseCont {width:690px;}
+.cvPro_PreferenceWrapper {}
+.cvPro_PreferenceCont {padding:0 20px}
+.cvPro_PreferenceCont ul { float:left}
+.cvPro_PreferenceCont ul li label,.cvPro_PreferenceCont ul li div {float:left; font:normal 13px/22px Arial;}
+.cvPro_PreferenceCont ul li div {color:#000; width:480px; line-height:15px; padding:3px 0 4px 0}
+.cvPro_PreferenceCont ul li label {width:250px; color:#555555}
+.cvPro_SpecialConditionWrapper {}
+.cvPro_SpecialConditionCont {}
+.cvPro_SpecialConditionCont ul { }
+.cvPro_SpecialConditionCont ul li { margin-top:10px}
+.cvPro_SpecialConditionCont ul li label{float:left;padding-left:26px;width:83px; padding-right:10px; color:#555555;font:normal 13px/19px Arial; }
+.cvPro_SpecialConditionCont ul li label.txtHandicapped {background: url(../../Assets/Images/i_specialConditions.gif) no-repeat 0 -72px;}
+.cvPro_SpecialConditionCont ul li label.txtConvicted {background: url(../../Assets/Images/i_specialConditions.gif) no-repeat 0 -144px;}
+.cvPro_SpecialConditionCont ul li label.txtTerrorAggrieved {background: url(../../Assets/Images/i_specialConditions.gif) no-repeat 0 0;}
+.cvPro_SpecialConditionCont ul li div {float:left;color:#000; width:610px; font:normal 13px/15px Arial; padding-top:2px}
+.cvPro_SpecialConditionCont ul li div p { padding-bottom:5px}
+.cvPro_ReferenceWrapper {}
+.cvPro_ReferenceRowCont {padding:5px 0 8px 19px;}
+.cvPro_ReferenceRowCont:hover { background-color:#FCFBED !important}
+.cvPro_ReferenceCont {width:690px;}
+.cvPro_ReferenceCont div.clearfix { margin-bottom:3px}
+.cvPro_ExamWrapper {}
+.cvPro_ExamRowCont {padding:5px 0 8px 19px;}
+.cvPro_ExamRowCont:hover { background-color:#FCFBED !important}
+.cvPro_ExamCont {width:690px;}
+.cvPro_CertificateWrapper {}
+.cvPro_CertificateRowCont {padding:5px 0 8px 19px;}
+.cvPro_CertificateRowCont:hover { background-color:#FCFBED !important}
+.cvPro_CertificateCont {width:690px;}
+.cvPro_FileWrapper {}
+.cvPro_FileRowCont {padding:5px 0 8px 19px;}
+.cvPro_FileRowCont:hover { background-color:#FCFBED !important}
+.cvPro_FileCont {width:690px;}
+.cvPro_FileCont a {text-decoration:none; color:#165088; font-weight:bold}
+.cvPro_TextCvWrapper {}
+.cvPro_TextCvCont {padding:0 20px; font:normal 11px/14px Arial}
+.cvPro_Txt01 {color:#165088; font: normal 13px/16px Arial !important; margin-bottom:3px; padding-top:1px}
+.cvPro_Txt02 {color:#000000; font: normal 13px/14px Arial; font-style:italic; margin-bottom:4px}
+.cvPro_Txt03 {color:#000000; font: normal 13px/14px Arial;}
+.cvPro_Txt04 {color:#555555; font: normal 13px/15px Arial; margin-bottom:4px}
+.cvPro_Txt05 {color:#555555; font: normal 13px/18px Arial}
+.cvPro_Txt06 {color:#165088; font: normal 13px/15px Arial;}
+.cvPro_Txt07 {color:#000000; font: normal 13px/16px Arial;}
+.cvPro_Txt08 {color:#000000; font: normal 13px/15px Arial;}
+.cvPro_Txt09 {color:#555555; font: normal 13px/15px Arial;}
+.cvPro_ContMoreLnk {color:#035AB5; font:normal 11px/11px arial; text-decoration:underline; display:block; margin-top:4px; display:none}
+.cvPro_InlineToolsCont {margin-right:3px; width:40px}
+.cvPro_InlineToolsCont span {color:#D2CEB4; font:normal 11px Arial; display:block; width:1px; margin:0 5px}
+.cvPro_BttnAdd {color:#5386a2;font:normal 11px/14px Arial; text-decoration:none;margin:10px 5px 0 5px; background: url(../../Assets/Images/i_addcv.png) no-repeat right 0;  padding-right:20px;}
+.cvPro_BttnDelete {background: url(../../Assets/Images/i_deletecv.png) no-repeat right 0; width:13px; height:13px; display:block; cursor:pointer }
+.cvPro_BttnMessageDelete {background: url(/Assets/Images/i_deleteMessage.png) no-repeat 0 0; width:21px; height:10px; display:block; cursor:pointer; margin-top:7px }
+.cvPro_BttnMessageDelete:hover {background: url(/Assets/Images/i_deleteMessage.png) no-repeat 0 -10px;}
+.cvPro_BttnEdit {background: url(../../Assets/Images/i_editcv.png) no-repeat right 0; width:13px; height:13px; display:block }
+.cvPro_onlyEditBttn { margin-right:24px}
+.cvPro_Hr_GrayLine { height:1px; width:100%; border:0; background-color:#EAEDEF;margin: 10px 0 0 0 }
+.cvPro_Hr_GrayLine hr {display : none;}
+.hr_lightBLueLine { height:1px; width:739px; border:0; background: url(../../Assets/Images/bg_hrLightBLue.gif) repeat-x 0 bottom; margin:1px 19px 0 19px }
+.hr_lightBLueLine hr {display:none;}
+.LightBlueBottomCont {background:url(../../Assets/Images/bg_LightBlueBottomCenter.gif) repeat-x 0 bottom;  height:4px;font-size:0 }
+.LightBlueBottomLeft {background:url(../../Assets/Images/bg_LightBlueBottomLeft.gif) no-repeat 0 0; padding-left:3px; height:4px; font-size:0;}
+.LightBlueBottomRight {background:url(../../Assets/Images/bg_LightBlueBottomRight.gif) no-repeat right 0; padding-right:3px; height:4px;font-size:0}
+.crsr {cursor:hand !important; cursor:pointer !important;}
+.cv_i_plus {background:url(../../Assets/images/i_cv_plus.gif) no-repeat 0 0; width:9px; height:9px; margin: 12px 0 0 4px;}
+.cv_i_minus {background:url(../../Assets/images/i_cv_minus.gif) no-repeat 0 0;width:9px; height:9px; margin: 12px 0 0 4px;}
+.personalInfoBttnCont {margin:11px 0 0 8px}
+.cvPro_leftPanel { width:235px; margin-right:15px}
+.cvPro_rightPanel { width: 440px; text-align:justify}
+.cvPro_justify{text-align:justify}
+.cvPro_NoDataInfo { padding:0 20px}
+.cvPro_NoDataInfo a {font:normal 13px/18px Arial, Helvetica; color:#818181; text-decoration:none; display:block}
+.cvPro_NoDataInfo a:hover {color:#000;}
+.cvPro_generalCont {padding:12px 0 12px 0;border-top:solid 1px #000;}
+.genderTxtCont {width:132px}
+.truncate { white-space:nowrap; text-overflow:ellipsis; overflow:hidden; -moz-binding: url(/Assets/Xml/ellipsis.xml#ellipsis); display:block}
+.plusCont {position:absolute; left:0;}
+.cvProRowHover:hover {background-color:#FCFBED}
